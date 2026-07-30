@@ -30,7 +30,7 @@ img{max-width:100%;display:block;}
 
 .hero{position:relative;height:100vh;min-height:600px;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,rgba(61,43,34,0.35),rgba(61,43,34,0.55)),url('../assets/imagenes/hero.jpg') center/cover no-repeat;background-color:var(--chocolate);}
 .hero-content{text-align:center;color:#fff;padding:0 24px;}
-.hero-logo{height:90px;margin:0 auto 24px;filter:brightness(0) invert(1);}
+.hero-logo{height:90px;margin:0 auto 24px;}
 .hero-phrase{font-family:'Cormorant Garamond',serif;font-size:28px;font-style:italic;margin-bottom:32px;}
 .btn{display:inline-block;padding:16px 40px;font-size:13px;letter-spacing:2px;text-transform:uppercase;border:1px solid currentColor;transition:all .3s ease;}
 .btn-primary{background:#fff;color:var(--chocolate);border-color:#fff;}
