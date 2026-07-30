@@ -1,4 +1,4 @@
-const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTMlPWUJ7AOxQi_CJl9-dRVnVU-xZluCHyDPjvBAEhLV8pGaGRlbcFrETwEbQNQD1BzoOo-Bw6B8jbm/pub?output=csv';
+const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/1Y6lEPBEG89ytUAk_SeT8_Ykr0bJckj6x8UrriPjbd0Q/export?format=csv&gid=0';
 
 let PRODUCTOS = [];
 
