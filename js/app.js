@@ -1,5 +1,4 @@
-const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/1Y6lEPBEG89ytUAk_SeT8_Ykr0bJckj6x8UrriPjbd0Q/gviz/tq?tqx=out:csv&sheet=Hoja1';
-
+const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/1Y6lEPBEG89ytUAk_SeT8_Ykr0bJckj6x8UrriPjbd0Q/gviz/tq?tqx=out:csv&gid=0';
 let PRODUCTOS = [];
 
 function whatsappLink(numero, nombre){
