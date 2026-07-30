@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terrana | Curaduria de diseno de autor</title>
+<meta name="description" content="Terrana - curaduria de diseno de autor argentino en cuero premium, inspirada en la naturaleza.">
+<link rel="icon" href="assets/logo/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><img src="assets/logo/logo.png" alt="Terrana"></a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Inicio</a>
+      <a href="productos.html">Colecciones</a>
+      <a href="historia.html">Nuestra Historia</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="header-actions">
+      <button id="search-toggle" aria-label="Buscar">&#128269;</button>
+      <button id="menu-toggle" aria-label="Menu">&#9776;</button>
+    </div>
+  </div>
+  <div id="search-bar" class="search-bar">
+    <div class="container">
+      <input type="text" id="search-input" placeholder="Buscar productos...">
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <img src="assets/logo/logo.png" alt="Terrana" class="hero-logo">
+    <p class="hero-phrase">Piezas unicas, inspiradas en la naturaleza</p>
+    <a href="productos.html" class="btn btn-primary">Ver Coleccion</a>
+  </div>
+</section>
+
+<section class="intro">
+  <div class="container intro-inner">
+    <h2>Sobre Terrana</h2>
+    <p>Terrana es una curaduria de diseno de autor argentino, seleccionando piezas unicas elaboradas principalmente en cuero premium, para quienes buscan autenticidad y elegancia atemporal.</p>
+    <a href="historia.html" class="link-underline">Conoce nuestra historia</a>
+  </div>
+</section>
+
+<section class="collections">
+  <div class="container">
+    <h2 class="section-title">Nuestras Colecciones</h2>
+    <div class="collections-grid" id="collections-grid"></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="assets/logo/logo.png" alt="Terrana">
+      <p>Curaduria de diseno de autor argentino en cuero premium.</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/51999999999" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="mailto:terranalima@gmail.com">Correo</a>
+    </div>
+    <p class="footer-rights">&copy; 2026 Terrana. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<script src="js/app.js"></script>
+<script>
+  cargarColecciones();
+</script>
+</body>
+</html>
