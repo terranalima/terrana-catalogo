@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nuestra Historia | Terrana</title>
+<link rel="icon" href="assets/logo/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .historia-hero{padding:180px 0 60px;text-align:center;}
+  .historia-hero h1{font-size:44px;margin-bottom:16px;}
+  .historia-body{max-width:760px;margin:0 auto;padding:0 24px 120px;}
+  .historia-body p{margin-bottom:24px;color:var(--gris);font-size:17px;}
+  .valores{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin:48px 0;}
+  .valor{text-align:center;padding:24px;}
+  .valor h3{font-size:20px;margin-bottom:8px;color:var(--marron);}
+</style>
+</head>
+<body>
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><img src="assets/logo/logo.png" alt="Terrana"></a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Inicio</a>
+      <a href="productos.html">Colecciones</a>
+      <a href="historia.html">Nuestra Historia</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="header-actions">
+      <button id="search-toggle" aria-label="Buscar">&#128269;</button>
+      <button id="menu-toggle" aria-label="Menu">&#9776;</button>
+    </div>
+  </div>
+  <div id="search-bar" class="search-bar">
+    <div class="container">
+      <input type="text" id="search-input" placeholder="Buscar productos...">
+    </div>
+  </div>
+</header>
+
+<section class="historia-hero container">
+  <h1>Nuestra Historia</h1>
+</section>
+
+<section class="historia-body">
+  <p>Terrana nace como una curaduria de diseno de autor argentino, dedicada a seleccionar piezas unicas elaboradas principalmente en cuero premium. Cada producto refleja una inspiracion profunda en la naturaleza, buscando transmitir autenticidad a quienes valoran lo hecho a mano y lo atemporal.</p>
+  <p>Creemos en la elegancia sin excesos, en la sofisticacion silenciosa y en el valor del diseno de autor. Por eso, cada pieza de nuestra coleccion es cuidadosamente elegida para acompanar a quienes buscan calidad artesanal por sobre la produccion masiva.</p>
+  <div class="valores">
+    <div class="valor"><h3>Diseno de autor</h3><p>Piezas unicas con identidad propia.</p></div>
+    <div class="valor"><h3>Calidad artesanal</h3><p>Cuero premium trabajado con dedicacion.</p></div>
+    <div class="valor"><h3>Inspiracion natural</h3><p>Formas y texturas que evocan la naturaleza.</p></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="assets/logo/logo.png" alt="Terrana">
+      <p>Curaduria de diseno de autor argentino en cuero premium.</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/51999999999" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="mailto:terranalima@gmail.com">Correo</a>
+    </div>
+    <p class="footer-rights">&copy; 2026 Terrana. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
