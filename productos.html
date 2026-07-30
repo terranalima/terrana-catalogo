@@ -1,0 +1,68 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Categorias | Terrana</title><link rel="icon" href="assets/logo/logo.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css"><style>
+.products-toolbar{padding:140px 0 24px;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;}
+.products-toolbar select,.products-toolbar input{padding:10px 14px;border:1px solid #ddd;border-radius:4px;font-family:inherit;font-size:14px;}
+#page-title{font-size:28px;margin-bottom:8px;}
+.products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:24px;padding:24px 0 100px;}
+.product-card{display:block;text-decoration:none;color:inherit;border:1px solid #eee;border-radius:6px;overflow:hidden;transition:box-shadow .2s;}
+.product-card:hover{box-shadow:0 4px 16px rgba(0,0,0,.08);}
+.product-card img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:#f5f5f5;}
+.product-card .badge{position:absolute;margin:10px;padding:4px 10px;background:var(--marron,#6b4a34);color:#fff;font-size:11px;border-radius:3px;}
+.product-card-body{padding:14px;}
+.product-card-body h4{font-size:15px;margin-bottom:6px;}
+.product-card-body .precio{font-weight:600;color:var(--marron,#6b4a34);}
+.product-img-wrap{position:relative;}
+</style></head><body><header class="site-header" id="site-header"> <div class="container header-inner">
+ <a href="index.html" class="logo"><img src="assets/logo/logo.png" alt="Terrana"></a>
+ <nav class="main-nav" id="main-nav">
+ <a href="index.html">Inicio</a>
+ <a href="productos.html">Categorías</a>
+ <a href="historia.html">Nuestra Historia</a>
+ <a href="contacto.html">Contacto</a>
+ </nav>
+ <div class="header-actions">
+ <button id="search-toggle" aria-label="Buscar">🔍</button>
+ <button id="menu-toggle" aria-label="Menu">☰</button>
+ </div>
+ </div>
+ <div id="search-bar" class="search-bar">
+ <div class="container">
+ <input type="text" id="search-input" placeholder="Buscar productos...">
+ </div>
+ </div></header>
+<main class="container">
+ <div class="products-toolbar">
+ <div>
+ <h1 id="page-title">Todos los productos</h1>
+ </div>
+ <div style="display:flex;gap:12px;flex-wrap:wrap;">
+ <input type="text" id="search-input-page" placeholder="Buscar por nombre o codigo...">
+ <select id="filtro-categoria"><option value="">Todas las categorias</option></select>
+ <select id="filtro-estado">
+ <option value="">Todos los estados</option>
+ <option value="Nuevo">Nuevo</option>
+ <option value="Destacado">Destacado</option>
+ <option value="Disponible">Disponible</option>
+ <option value="Agotado">Agotado</option>
+ <option value="Proximamente">Proximamente</option>
+ </select>
+ <select id="filtro-orden">
+ <option value="">Ordenar por</option>
+ <option value="precio-asc">Precio: menor a mayor</option>
+ <option value="precio-desc">Precio: mayor a menor</option>
+ </select>
+ </div>
+ </div>
+ <div class="products-grid" id="products-grid"></div>
+</main>
+<footer class="site-footer"> <div class="container footer-inner">
+ <div class="footer-brand">
+ <img src="assets/logo/logo.png" alt="Terrana">
+ <p>Curaduria de diseno de autor argentino en cuero premium.</p>
+ </div>
+ <div class="footer-links">
+ <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+ <a href="https://wa.me/51942148480" target="_blank" rel="noopener">WhatsApp</a>
+ <a href="mailto:terranalima@gmail.com">Correo</a>
+ </div>
+ <p class="footer-rights">© 2026 Terrana. Todos los derechos reservados.</p>
+ </div></footer><script src="js/app.js"></script></body></html>
